@@ -1,0 +1,10 @@
+---
+applications:
+- name: springweb
+  memory: 1GB
+  instances: 1
+  host: web
+  path: ./target/springweb-1.0.0-BUILD-SNAPSHOT.war
+  services:
+    - mysql
+
